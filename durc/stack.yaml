@@ -1,0 +1,10 @@
+resolver: lts-14.20
+packages:
+- .
+
+extra-deps:
+- github: hkailahi/durc
+  commit: fe99806f4ea3850e4308eb6b15bf81adee838f50
+  subdirs:
+   - durc-api
+   - durc-handler
