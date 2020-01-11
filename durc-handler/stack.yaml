@@ -2,8 +2,8 @@ resolver: lts-14.20
 packages:
 - .
 
-# extra-deps:
-# - github: hkailahi/durc
-#   commit: 2e385ce3e4674c5359499132fe77a657f046975a
-#   subdirs:
-#    - durc-api
+extra-deps:
+- github: hkailahi/durc
+  commit: 24aa823d5fbf6e2c9c16dcf90fb2a59f6bd62b10
+  subdirs:
+   - durc-api

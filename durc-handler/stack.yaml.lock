@@ -3,7 +3,23 @@
 # For more information, please see the documentation at:
 #   https://docs.haskellstack.org/en/stable/lock_files
 
-packages: []
+packages:
+- completed:
+    size: 3650
+    subdir: durc-api
+    url: https://github.com/hkailahi/durc/archive/24aa823d5fbf6e2c9c16dcf90fb2a59f6bd62b10.tar.gz
+    cabal-file:
+      size: 1648
+      sha256: bf1ecc1c3757e3d42aaeaecde4e412edaa87214115c399ebe3f9d290ba3c8ec9
+    name: durc-api
+    version: 0.1.0.0
+    sha256: 23be1720502e63055adfacad76e9c763eb2049ac2d1e190401b61ffd74940021
+    pantry-tree:
+      size: 416
+      sha256: d0bda3ee794faf669bed6eb33d44c0ed380dbd23810f2bc575d345365a975fd9
+  original:
+    subdir: durc-api
+    url: https://github.com/hkailahi/durc/archive/24aa823d5fbf6e2c9c16dcf90fb2a59f6bd62b10.tar.gz
 snapshots:
 - completed:
     size: 524154

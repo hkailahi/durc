@@ -76,7 +76,5 @@ dependencies:
   # Internal Deps
   - durc-api
 
-executables:
-  durc-handler:
-    source-dirs:      src
-    main:             Main.hs
+library:
+  source-dirs:      src

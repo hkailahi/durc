@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: f6074d2d562712cdea39c55ea5a91201afd9daf39b8a325084ddec021adcac6c
+-- hash: db1102378c3be5c254a0ef4513212f2965429a2fa22a4129e767c7b084aaa475
 
 name:           durc-handler
 version:        0.1.0.0
@@ -19,8 +19,9 @@ build-type:     Simple
 extra-source-files:
     README.md
 
-executable durc-handler
-  main-is: Main.hs
+library
+  exposed-modules:
+      Durc.Handler
   other-modules:
       Paths_durc_handler
   hs-source-dirs:
