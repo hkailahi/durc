@@ -74,7 +74,6 @@ dependencies:
   - unordered-containers
   - QuickCheck
 
-executables:
-  durc-api:
-    source-dirs:      src
-    main:             Main.hs
+library:
+  source-dirs:      src
+    

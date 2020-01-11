@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 33fd9da3ed2e2f18f1393d90ff5e6435f251e714f27d69c96c53587e3c633cd6
+-- hash: bf606c7df712393edac5d0b5daa826cec83e4433df066b50ba9342a241bd9de4
 
 name:           durc-api
 version:        0.1.0.0
@@ -19,8 +19,9 @@ build-type:     Simple
 extra-source-files:
     README.md
 
-executable durc-api
-  main-is: Main.hs
+library
+  exposed-modules:
+      Durc.API.Types
   other-modules:
       Paths_durc_api
   hs-source-dirs:
