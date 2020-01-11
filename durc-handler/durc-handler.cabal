@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: db1102378c3be5c254a0ef4513212f2965429a2fa22a4129e767c7b084aaa475
+-- hash: 1f80ce1e4d7cdfbfd024c3d3dbac2423af827bc8756bbc10bd12daba139d610d
 
 name:           durc-handler
 version:        0.1.0.0
@@ -42,5 +42,6 @@ library
     , servant-client-core
     , servant-server
     , text
+    , time
     , unordered-containers
   default-language: Haskell2010

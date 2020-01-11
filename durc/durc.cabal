@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 8f6482d90907925e15f421dcc3c0bc36e12277f8f79ef3c337d7cbad1821231b
+-- hash: 5ccab78f9f316a7e4a905470ede4f99d66c0ef153aac0a244fb75716515bf14a
 
 name:           durc
 version:        0.1.0.0
@@ -42,5 +42,6 @@ executable durc
     , servant-client-core
     , servant-server
     , text
+    , time
     , unordered-containers
   default-language: Haskell2010

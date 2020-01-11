@@ -70,6 +70,7 @@ dependencies:
   - servant-server
   - servant-client
   - servant-client-core
+  - time
   - text
   - unordered-containers
   - QuickCheck
