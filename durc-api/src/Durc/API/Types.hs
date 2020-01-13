@@ -1,4 +1,4 @@
-module Durc.API.Types where
+module Durc.Api.Types where
 
 import BasicPrelude
 
@@ -104,3 +104,7 @@ data ErrorCode =
 data Error = Error
   { _errorBody :: Text
   } deriving (Show, Eq)
+
+----------------------------------------------------------------------------
+
+newtype Password = Password { unPassword :: Text } deriving (Show, Eq)
